@@ -33,6 +33,45 @@ flowchart LR
 	B --> C[Marketplace]
 ```
 
+## Judge Quick Start
+
+Use this section to run the project on a fresh machine in under 5 minutes.
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/dhaya-nandha/Dumbathon_team_rocket.git
+cd Dumbathon_team_rocket
+```
+
+2. Install dependencies:
+
+```bash
+cd client && npm install
+cd ../server && npm install
+```
+
+3. Run backend API:
+
+```bash
+cd server
+npm run dev
+```
+
+4. In a new terminal, run frontend:
+
+```bash
+cd client
+npm run dev
+```
+
+5. Open in browser:
+- Frontend: `http://localhost:5173`
+- API health check: `http://localhost:4000/api/health`
+- Lots endpoint: `http://localhost:4000/api/lots`
+
+Prerequisite: Node.js LTS installed (includes npm).
+
 ## Local Dev
 
 1. Install dependencies:
